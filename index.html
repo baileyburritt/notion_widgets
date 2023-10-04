@@ -58,7 +58,7 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		<a id="weather" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-sun-o"></i> Weather</a>
 		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
 		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
 		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
@@ -86,8 +86,8 @@
 
 		function navigate(id) {
 
-			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
+			if (id == 'weather')
+				window.open("https://www.notion.so/burritt/Weather-9cd92f3e924d44d68420eb7ad7b2a67b?pvs=4", '_blank').focus();
 			else if (id == "inbox")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "week")
